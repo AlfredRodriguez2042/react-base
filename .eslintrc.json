@@ -48,6 +48,7 @@
     "operator-linebreak": "off",
     "radix": "off",
     "react/destructuring-assignment": "off",
+    "react/prop-types": "off",
     "react/forbid-prop-types": "off",
     "react/jsx-one-expression-per-line": "off",
     "react/jsx-props-no-spreading": "off",
