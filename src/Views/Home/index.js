@@ -1,10 +1,11 @@
 import React from 'react'
+import Page from 'src/Components/Base/Page'
 
 const Home = () => {
   return (
-    <div>
+    <Page title="react-base">
       <h1>Home</h1>
-    </div>
+    </Page>
   )
 }
 
