@@ -18,7 +18,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint src --fix",
+    "lint": "eslint src --fix --format=table ",
     "prepare": "husky install"
   },
   "eslintConfig": {
@@ -40,6 +40,10 @@
     ]
   },
   "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/eslint-parser": "^7.15.7",
+    "@babel/eslint-plugin": "^7.14.5",
+    "@babel/preset-react": "^7.14.5",
     "eslint": "^7.32.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^8.3.0",
